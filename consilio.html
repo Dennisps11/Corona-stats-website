@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Corona Virus Statistics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  max-width: 1600px;
+  margin: auto;
+  
+  padding: 10px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #4db685;
+  color: rgb(248, 246, 246);
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.inside {
+    color: rgb(14, 8, 8);
+    
+    
+    
+
+}
+
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+
+.side {
+  -ms-flex: 30%; 
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+table {
+         font-family: Arial, Helvetica, sans-serif;
+         border-collapse: collapse;
+         width: 100%;
+     }
+     td,th{
+        border: 1px solid #0c0101;
+        text-align: left;
+        padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dennis
+{
+  margin: 20px;
+  color: #111111;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: antiquewhite;
+}
+
+details > summary {
+  padding: 4px;
+  width: 220px;
+  background-color: #eeeeee;
+  border: none;
+  margin: 15px;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+  
+}
+
+
+
+h4{margin :15px;}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: #777;
+  padding: 50px;
+  
+  color: white;
+  margin: 20px;
+  
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="https://play-lh.googleusercontent.com/plQnUf0aq-vGnkr0Geh_QA6Wi_QIh9p14bne6SBK27D314E82NvZQfuAXvEZ_GbiaQ" 
+   width="100" height="100">
+  <h1 style="margin: 0px;">Corona Virus Tracker</h1>
+  <p>A website to know about corona virus statistics</p>
+</div>
+
+<div class="navbar">
+  <a href="#a">WORLDWIDE STATISTICS</a>
+  <a href="#b">INDIA STATISTICS</a>
+  <a href="#c">KERALA STATISTICS</a>
+  <a href="#d">IMPACT</a>
+</div>
+
+
+<div class="row">
+  <div class="side">
+    <h2>About Vaccines</h2>
+    <p>The overarching goal is for COVID-19 vaccines to contribute significantly to the equitable protection and
+      promotion of human well-being among people globally. Global equitable access to a vaccine, particularly
+      protecting health care workers and those most-at-risk is the only way to mitigate the public health and
+      economic impact of the pandemic and is the current priority. The vaccine is to be used in conjunction with
+      other control measures. In the longer term, the vaccine is intended to be used for active immunization
+      of people at-risk to prevent COVID-19. While countries, including India, have taken strong measures to
+      contain the spread of COVID-19 through better diagnostics and treatment, vaccines will provide a solution
+      by enhancing immunity and containing the disease spread. </p>
+    
+  </div>
+  <div class="main">
+    <h2>HOW TO PREVENT CORONA VIRUS</h2>
+    
+    <p>The best way to prevent infection from COVID-19 is to avoid exposure to the virus. The virus spreads mainly
+      from person-to-person through close contact (within about 2 Gaz). When an infected person coughs,
+      sneezes or talks, respiratory droplets are produced. Other people can catch COVID-19’ if they breathe in
+      these droplets. In addition, people may come to be infected if they touch surfaces, such as doorknobs or
+      tables on which infected droplets have landed, and then touch their mouth, nose or eyes. COVID-19 also
+      spreads by asymptomatic people.<BR>
+        The basic preventive measures include simple public health measures that are to be followed to reduce
+        the risk of infection with COVID-19. These measures must always be observed by all individuals. These
+        include:<BR>
+        <li>Physical distancing</li>
+      <li>Use of Mask – wearing a mask properly</li>
+      <li>Hand Hygiene</li>
+      <li>Respiratory Hygiene</li>
+      <li>Prompt Self Isolation</li>
+    <li>Prompt Testing</li></p>
+   
+</div>
+
+
+<div class="inside" >
+    <p id="a">
+    <h2 style="margin: 20px; font-family: 'Times New Roman', Times, serif; background-color:rgb(153, 171, 223); padding: 10px;"> WORLDWIDE CORONA VIRUS STATS</u></h2>
+    <table>
+      <caption>Continent wise data</caption>
+      <tr>
+        <th>Continent</th>
+        <th>Total Cases</th>
+        <th>New cases</th>
+        <th>Total Death</th>
+        <th>Total recovered</th>
+        <th>Active Cases</th>
+        <th>Total Tests</th>
+        <th>Population</th>
+      </tr>
+      <tr>
+        <td>Europe</td>
+        <td>48,413,995</td>
+        <td>+61,831</td>
+        <td>1,108,224</td>
+        <td>45,660,969</td>
+        <td>1,644,802</td>
+        <td>----</td>
+        <td>745.64M</td>
+      </tr>
+      <tr>
+        <td>North America</td>
+        <td>40,753,938</td>
+        <td>+9,491</td>
+        <td>921,149</td>
+        <td>34,254,001	</td>
+        <td>5,578,788</td>
+        <td>----</td>
+        <td>366.69M</td>
+      </tr>
+      <tr>
+        <td>Asia</td>
+        <td>56,733,882</td>
+        <td>+153,642	</td>
+        <td>806,024</td>
+        <td>53,992,588</td>
+        <td>1,935,270	</td>
+        <td>----</td>
+        <td>4,586.93M</td>
+      </tr>
+      <tr>
+        <td>South America</td>
+        <td>33,423,914</td>
+        <td>+3,251	</td>
+        <td>1,020,117</td>
+        <td>30,493,183</td>
+        <td>1,910,614</td>
+        <td>----</td>
+        <td>644.54M</td>
+      </tr>
+      <tr>
+        <td>Africa</td>
+        <td>5,766,502</td>
+        <td>+21,978	</td>
+        <td>148,073	</td>
+        <td>5,004,564	</td>
+        <td>613,865</td>
+        <td>----</td>
+        <td>1,305.22M</td>
+      </tr>
+      <tr>
+        <td>Oceania</td>
+        <td>77,457</td>
+        <td>+662	</td>
+        <td>1,299	</td>
+        <td>69,325	</td>
+        <td>6,833	</td>
+        <td>----</td>
+        <td>42.45M</td>
+      </tr>
+      
+      
+    </table>
+  
+    </p>
+    <p id="b">
+    <h2 style="margin: 20px; font-family: 'Times New Roman', Times, serif;background-color:rgb(153, 171, 223); padding: 10px;"> INDIA CORONA VIRUS STATS</u></h2>
+    <div class= dennis>
+      <h3>INDIA</h3>
+      <p>Total Cases:30,662,283<br><br>
+        New cases:+43,344	<br><br>
+        Total Death:404,219<br><br>
+        Total recovered:29,791,178<br><br>
+        Active Cases:466,886<br><br>
+        Total Tests:421,424,881	<br><br>
+        Population:1393679418</p>
+      </div>
+    </p>
+    <p id="c">
+    <h2 style="margin: 20px; font-family: 'Times New Roman', Times, serif;background-color:rgb(153, 171, 223); padding: 10px;"> KERALA CORONA VIRUS STATS</u></h2>
+    <div class= dennis>
+    <h4>Corona stats as of 06/07/2021</h4>
+
+  
+    <details>
+  <summary>Click to know</summary>
+  <br>
+  <li>Total cases:29.8L</li>
+  <li>Recovered:28.7L</li>
+  <li>Deaths:13,818</li>
+  <li>Total Under Observation:384439</li>
+  <li>Total Hospitalized:24139</li>
+  <li>Under Home Isolation:360300</li>
+  <li>Hospitalized on 06-07-2021:1908</li>
+</details>
+    </div>
+    </p>
+    <p id="d">
+    <h2 style="margin: 20px;  font-family: 'Times New Roman', Times, serif;background-color:rgb(153, 171, 223); padding: 10px;"> IMPACT OF CORONA VIRUS </u></h2>
+    <div class= dennis>
+    <p style="margin: 20px; font-size:large;">The COVID-19 pandemic has led to a dramatic loss of human life worldwide and presents an unprecedented challenge to public health, food systems and the world of work. The economic and social disruption caused by the pandemic is devastating: tens of millions of people are at risk of falling into extreme poverty, while the number of undernourished people, currently estimated at nearly 690 million, could increase by up to 132 million by the end of the year.<br>
+
+        The pandemic has been affecting the entire food system and has laid bare its fragility. Border closures, trade restrictions and confinement measures have been preventing farmers from accessing markets, including for buying inputs and selling their produce, and agricultural workers from harvesting crops, thus disrupting domestic and international food supply chains and reducing access to healthy, safe and diverse diets. The pandemic has decimated jobs and placed millions of livelihoods at risk. As breadwinners lose jobs, fall ill and die, the food security and nutrition of millions of women and men are under threat, with those in low-income countries, particularly the most marginalized populations, which include small-scale farmers and indigenous peoples, being hardest hit.<br>
+        
+        Millions of agricultural workers – waged and self-employed – while feeding the world, regularly face high levels of working poverty, malnutrition and poor health, and suffer from a lack of safety and labour protection as well as other types of abuse. With low and irregular incomes and a lack of social support, many of them are spurred to continue working, often in unsafe conditions, thus exposing themselves and their families to additional risks. Further, when experiencing income losses, they may resort to negative coping strategies, such as distress sale of assets, predatory loans or child labour. Migrant agricultural workers are particularly vulnerable, because they face risks in their transport, working and living conditions and struggle to access support measures put in place by governments. Guaranteeing the safety and health of all agri-food workers – from primary producers to those involved in food processing, transport and retail, including street food vendors – as well as better incomes and protection, will be critical to saving lives and protecting public health, people’s livelihoods and food security.<br>
+        
+        In the COVID-19 crisis food security, public health, and employment and labour issues, in particular workers’ health and safety, converge. Adhering to workplace safety and health practices and ensuring access to decent work and the protection of labour rights in all industries will be crucial in addressing the human dimension of the crisis. Immediate and purposeful action to save lives and livelihoods should include extending social protection towards universal health coverage and income support for those most affected. These include workers in the informal economy and in poorly protected and low-paid jobs, including youth, older workers, and migrants. Particular attention must be paid to the situation of women, who are over-represented in low-paid jobs and care roles. Different forms of support are key, including cash transfers, child allowances and healthy school meals, shelter and food relief initiatives, support for employment retention and recovery, and financial relief for businesses, including micro, small and medium-sized enterprises. In designing and implementing such measures it is essential that governments work closely with employers and workers.<br>
+
+        We must rethink the future of our environment and tackle climate change and environmental degradation with ambition and urgency. Only then can we protect the health, livelihoods, food security and nutrition of all people, and ensure that our ‘new normal’ is a better one.</p>
+    </div>
+</p>
+</div>
+
+<div class="footer" >
+  <p >**************************************************************************************************ABOUT THIS SITE***************************************************************************************</p><br>
+  <p>**************************************************************************Information shared in this site was directly taken from google****************************************************************</p><br>
+  <p>******************************************************************************************Contact us on :kkkk@gmail.com********************************************************************************</p>
+</footer>
+
+
+</body>
+</html>
+
